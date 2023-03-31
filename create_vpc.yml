@@ -1,6 +1,6 @@
 ---
 - name: Creating an EC2 Instance with Creating a VPC and Subnet Id
-  hosts: localhost
+  hosts: 192.168.122.154
   vars:
     region: ap-south-1
     cidr_block: "10.10.0.0/16"
